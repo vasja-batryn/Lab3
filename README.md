@@ -27,7 +27,7 @@ YAML виступає за YAML Не Markup Language і ця технологі�
 version: '3'
 
 services:
-  # Database
+
   db:
     image: mysql:latest
     volumes:
@@ -40,7 +40,7 @@ services:
       MYSQL_PASSWORD: wordpress
     networks:
       - wpsite
-  # Wordpress
+
   wordpress:
     depends_on:
       - db
@@ -59,7 +59,7 @@ networks:
   wpsite:
 volumes:
   db_data:
-  
+
    <img src="/Img/4.png" height="300">
 
 3. Створення HTML сторінки та занесення її в Docker Image.
