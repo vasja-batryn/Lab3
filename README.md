@@ -1,30 +1,36 @@
 # Лабораторна робота №3
 
-## Основні команди системи контролю версій Git
+## Docker
 
 ### Завдання
 
-1. Пройти гру Git Learn та зробити скріншоти пройдених рівнів.
-2. Зробити git init папки із файлом hello.txt та bash скриптом.
-3. Зробити git commit.
-4. Зробити git push у віддалений репозиторій у вітку lab_works_one_two.
-5. Додати в файл Readme звіт до лабораторної, щоб його можна було передивлятись на репозиторію коли переходиш у вітку.
+1. Використання готових Docker Images.
+2. Використання Docker Compose.
+3. Створення HTML сторінки та занесення її в Docker Image. Залити даний Docker Image на Docker Hub.
+4. Скачати Docker Image когось із групи і розвернути в себе контейнер з HTML сторінкою на порті 8086 ззовні.
 
 ## Хід роботи
 
-1. Пройти гру Git Learn та зробити скріншоти пройдених рівнів.
-   <img src="screen/1.png" height="300"> <img src="/Img/photo_2022-10-11_20-42-38.jpg" height="300">
-   <img src="screen/1.png" height="300"> <img src="/Img/photo_2022-10-11_20-44-06.jpg" height="300">
+1. Використати образ wordpress та розвернути сайт із безкоштовною темою.
+   <img src="/Img/1.png" height="300">
+   <img src="/Img/2.png" height="300">
+   <img src="/Img/3.png" height="300">
 
-2. Зробити git init папки із файлом hello.txt та bash скриптом.
-   <img src="screen/1.png" height="300"> <img src="/Img/git init.png" height="300">
+2. Використання Docker Compose.
+   <img src="/Img/4.png" height="300">
 
-3. Зробити git commit.
-   <img src="screen/1.png" height="300"> <img src="/Img/git commit.png" height="300">
+3. Створення HTML сторінки та занесення її в Docker Image.
 
-4. Зробити git push у віддалений репозиторій у вітку lab_works_one_two.
-   <img src="screen/1.png" height="300"> <img src="/Img/git checkout -b.png" height="300">
-   <img src="screen/1.png" height="300"> <img src="/Img/git push.png" height="300">
-   <img src="screen/1.png" height="300"> <img src="/Img/github.png" height="300">
+- Створити HTML сторінку із вашим ПІБ, групою та № Л.Р..
+- Створити Docker Image із цією сторінкою.
+- Реалізувати можливість запуску цієї сторінки з контейнера (потрібно sudo usermod -aG docker username сервер NGINX до прикладу).
 
-5. Додати в файл Readme звіт до лабораторної, щоб його можна було передивлятись на репозиторію коли переходиш у вітку.
+- Перевірити на працездатність контейнера на основі вашого образу.
+- Залити готовий образ на Docker Hub.
+  <img src="/Img/4.png" height="300">
+  <img src="/Img/5.png" height="300">
+  <img src="/Img/6.png" height="300">
+  <img src="/Img/8.png" height="300">
+
+4. Скачати Docker Image когось із групи і розвернути в себе контейнер з HTML сторінкою на порті 8086 ззовні.
+   <img src="/Img/7.png" height="300">
