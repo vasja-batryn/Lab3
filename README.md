@@ -10,6 +10,8 @@
 ## Хід роботи
 
 1. Create one instance (image: ubuntu 20.04)
+
+
    <img src="/Img/1.png" height="300">
    <img src="/Img/2.png" height="300">
    <img src="/Img/3.png" height="300">
