@@ -22,3 +22,5 @@
    <img src="/Img/7.png" height="300"><br>
 4. Install Web Server (Apache HTTP Server / NGINX HTTP Server) via bash scenario<br>
    <img src="/Img/8.png" height="300"><br>
+   <img src="/Img/10.png" height="300"><br>
+
