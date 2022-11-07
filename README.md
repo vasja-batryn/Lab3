@@ -1,36 +1,24 @@
-# Лабораторна робота №3
+# Лабораторна робота №4
 
-## Docker
+## Завдання
 
-### Завдання
-
-1. Використання готових Docker Images.
-2. Використання Docker Compose.
-3. Створення HTML сторінки та занесення її в Docker Image. Залити даний Docker Image на Docker Hub.
-4. Скачати Docker Image когось із групи і розвернути в себе контейнер з HTML сторінкою на порті 8086 ззовні.
+1. Create one instance (image: ubuntu 20.04)
+2. Allow HTTP/HTTPS traffic on a NIC
+3. Provision one SSH public key for created instance
+4. Install Web Server (Apache HTTP Server / NGINX HTTP Server) via bash scenario
 
 ## Хід роботи
 
-1. Використати образ wordpress та розвернути сайт із безкоштовною темою.
+1. Create one instance (image: ubuntu 20.04)
    <img src="/Img/1.png" height="300">
    <img src="/Img/2.png" height="300">
    <img src="/Img/3.png" height="300">
-
-2. Використання Docker Compose.
    <img src="/Img/4.png" height="300">
-
-3. Створення HTML сторінки та занесення її в Docker Image.
-
-- Створити HTML сторінку із вашим ПІБ, групою та № Л.Р..
-- Створити Docker Image із цією сторінкою.
-- Реалізувати можливість запуску цієї сторінки з контейнера (потрібно sudo usermod -aG docker username сервер NGINX до прикладу).
-
-- Перевірити на працездатність контейнера на основі вашого образу.
-- Залити готовий образ на Docker Hub.
-  <img src="/Img/4.png" height="300">
-  <img src="/Img/5.png" height="300">
-  <img src="/Img/6.png" height="300">
-  <img src="/Img/8.png" height="300">
-
-4. Скачати Docker Image когось із групи і розвернути в себе контейнер з HTML сторінкою на порті 8086 ззовні.
+   <img src="/Img/5.png" height="300">
+   <img src="/Img/6.png" height="300">
+2. Allow HTTP/HTTPS traffic on a NIC
+   <img src="/Img/9.png" height="300">
+3. Provision one SSH public key for created instance
    <img src="/Img/7.png" height="300">
+4. Install Web Server (Apache HTTP Server / NGINX HTTP Server) via bash scenario
+   <img src="/Img/8.png" height="300">
