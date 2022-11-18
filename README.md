@@ -35,7 +35,6 @@ GitHub надає віртуальні машини Linux, Windows і macOS дл
 # 3. Ознайомитись із github pipelines та використати їх для реалізації CI/CD.
 
 <br><img src="/Img/1.png" height="300"><br>
-<br><img src="/Img/2.png" height="300"><br>
 <br><img src="/Img/3.png" height="300"><br>
 <br><img src="/Img/4.png" height="300"><br>
 <br><img src="/Img/5.png" height="300"><br>
