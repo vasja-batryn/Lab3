@@ -38,4 +38,5 @@ GitHub надає віртуальні машини Linux, Windows і macOS дл
 <br><img src="/Img/3.png" height="300"><br>
 <br><img src="/Img/4.png" height="300"><br>
 <br><img src="/Img/5.png" height="300"><br>
+<br><img src="/Img/6.png" height="300"><br>
 
